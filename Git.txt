@@ -64,6 +64,8 @@ ssh key
 
 git push -u origin flaskintigration
 
+git push -u origin master
+
 
 
 
