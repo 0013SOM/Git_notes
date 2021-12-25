@@ -1,0 +1,68 @@
+git config --global user.name som
+git config --global user.email 0013som@gmail.com
+
+untracked file 
+staging area 
+commit 
+untracked unmodified modified 
+add the file edit the file stafe the file commit the file now it is again unmodified 
+remove the file then now it is untracked
+
+git init 
+git status 
+git add .
+git add -A
+git commit -m "initial commit"
+
+git checkout contact.html (match my file to last commit)
+
+git checkout -f( restores all the file to previous commit
+
+git log(shows all the commits with cimmit messages
+
+git log -p -1( shows the exact changes in the file )
+
+git diff compares working directory with staging area
+git diff --staged( compares teh working directory with preiours commit)
+
+git commit -a -m(to commit directly without staging area)
+
+git rm --catched (only removed from staging area)
+
+git rm (permanentaly remove the file from system)
+
+git status -s
+.gitignore ( if you add any file in gitignore it is ignored for staging 
+if you want to ignore all log files (*.log)(/mylogs.log only ignore on root )
+ignore/ it is a folder which will be ignored
+
+Branches 
+
+git branch feature1
+git branch for checking all the branch
+
+git checkout feature1
+switched to feature
+
+git merge feature1
+for merging the feature 1 command with master 
+
+git checkout -b flaskintigreation 
+make a new branch as well as opens it
+
+
+git remote add origin https://github.com/0013SOM/project_ideas.git 
+
+git remote 
+
+git remote -v
+
+ssh key
+
+git push -u origin flaskintigration
+
+
+
+
+
+
