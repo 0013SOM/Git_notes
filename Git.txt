@@ -55,6 +55,9 @@ git remote add origin https://github.com/0013SOM/project_ideas.git
 
 git remote 
 
+git push origin master
+
+
 git remote -v
 
 ssh key
